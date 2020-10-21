@@ -1,3 +1,5 @@
+package game.logic;
+import game.ui.ComportamentoNormal;
 
 public abstract class Personagem implements ComportamentoNormal {
 	private String nome;

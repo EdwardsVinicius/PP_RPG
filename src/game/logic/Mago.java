@@ -1,3 +1,5 @@
+package game.logic;
+import game.ui.ComportamentoMagico;
 
 public class Mago extends Personagem implements ComportamentoMagico {
 

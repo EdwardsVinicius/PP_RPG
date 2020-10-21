@@ -1,3 +1,4 @@
+package game.ui;
 
 public interface ComportamentoNormal {
 	public void andar();

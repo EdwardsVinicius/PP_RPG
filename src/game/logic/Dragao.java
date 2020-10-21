@@ -1,3 +1,5 @@
+package game.logic;
+import game.ui.ComportamentoFeroz;
 
 public class Dragao extends Personagem implements ComportamentoFeroz {
 

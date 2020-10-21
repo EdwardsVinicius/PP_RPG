@@ -1,3 +1,4 @@
+package game.ui;
 
 public interface ComportamentoFeroz {
 	public void ativarFogo();
