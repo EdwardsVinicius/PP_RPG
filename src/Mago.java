@@ -1,37 +1,37 @@
 
 public class Mago extends Personagem implements ComportamentoMagico {
 
-	public Mago() {
-		// TODO Auto-generated constructor stub
+	public Mago(String nome) {
+		super(nome);
 	}
 
 	@Override
 	public void invisibilidade() {
-		// TODO Auto-generated method stub
+		System.out.println("Mago " + this.getNome() + " está invisível.");
 
 	}
 
 	@Override
 	public void ultraRapidez() {
-		// TODO Auto-generated method stub
+		System.out.println("Mago " + this.getNome() + " ESTÁ ULTRA RÁPIDO.");
 
 	}
 
 	@Override
 	public void andar() {
-		// TODO Auto-generated method stub
+		System.out.println("Mago " + this.getNome() + " está andando.");
 
 	}
 
 	@Override
 	public void guardarItem() {
-		// TODO Auto-generated method stub
+		System.out.println("Mago " + this.getNome() + " guardou item.");
 
 	}
 
 	@Override
 	public void usarItem() {
-		// TODO Auto-generated method stub
+		System.out.println("Mago " + this.getNome() + " usou item.");
 
 	}
 

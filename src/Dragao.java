@@ -1,43 +1,43 @@
 
 public class Dragao extends Personagem implements ComportamentoFeroz {
 
-	public Dragao() {
-		// TODO Auto-generated constructor stub
+	public Dragao(String nome) {
+		super(nome);
 	}
 
 	@Override
 	public void ativarFogo() {
-		// TODO Auto-generated method stub
+		System.out.println("Dragão " + this.getNome() + " está cuspindo fogo.");
 
 	}
 
 	@Override
 	public void voar() {
-		// TODO Auto-generated method stub
+		System.out.println("Dragão " + this.getNome() + " está voando.");
 
 	}
 
 	@Override
 	public void morder() {
-		// TODO Auto-generated method stub
+		System.out.println("Dragão " + this.getNome() + " usou mordida.");
 
 	}
 
 	@Override
 	public void andar() {
-		// TODO Auto-generated method stub
+		System.out.println("Dragão " + this.getNome() + " está andando.");
 
 	}
 
 	@Override
 	public void guardarItem() {
-		// TODO Auto-generated method stub
+		System.out.println("Dragão " + this.getNome() + " guardou um item...?");
 
 	}
 
 	@Override
 	public void usarItem() {
-		// TODO Auto-generated method stub
+		System.out.println("Dragão " + this.getNome() + " usou um item...?");
 
 	}
 
