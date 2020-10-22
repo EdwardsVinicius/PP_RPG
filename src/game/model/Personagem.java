@@ -1,11 +1,11 @@
-package game.logic;
-import game.ui.ComportamentoNormal;
+package game.model;
+import game.interfaces.ComportamentoNormal;
 
 public abstract class Personagem implements ComportamentoNormal {
 	private String nome;
 	
 	public Personagem(String _nome) {
-		this.nome = _nome;
+		setNome(_nome);
 	}
 	
 	public String getNome() {

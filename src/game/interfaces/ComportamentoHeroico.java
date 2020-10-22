@@ -1,4 +1,4 @@
-package game.ui;
+package game.interfaces;
 
 public interface ComportamentoHeroico {
 	public void atacar();

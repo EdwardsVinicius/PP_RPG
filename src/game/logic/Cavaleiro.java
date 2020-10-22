@@ -1,5 +1,6 @@
 package game.logic;
-import game.ui.ComportamentoHeroico;
+import game.interfaces.ComportamentoHeroico;
+import game.model.Personagem;
 
 public class Cavaleiro extends Personagem implements ComportamentoHeroico {
 	
