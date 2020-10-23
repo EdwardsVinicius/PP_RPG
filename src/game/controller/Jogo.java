@@ -11,14 +11,20 @@ public class Jogo {
 	}
 
 	public void ControlarAcoesDosPersonagens(Cavaleiro cavaleiro) {
-		
+		cavaleiro.andar();
+		cavaleiro.guardarItem();
+		cavaleiro.usarItem();
 	}
 	
 	public void ControlarAcoesDosPersonagens(Mago mago) {
-		
+		mago.andar();
+		mago.guardarItem();
+		mago.usarItem();
 	}
 
 	public void ControlarAcoesDosPersonagens(Dragao dragao) {
-	
+		dragao.andar();
+		dragao.guardarItem();
+		dragao.usarItem();
 	}
 }
